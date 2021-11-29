@@ -90,7 +90,7 @@
 
 .main-content {
     width: 100%;
-    background: #F3F8FB;
+    background: #fff;
 }
 
 .main-content-inner {
@@ -232,7 +232,7 @@
 /*-------------------- 2.1.1 Horizontal Menu -------------------*/
 
 .body-bg {
-    background: #F3F8FB;
+    background: #fff;
 }
 
 .horizontal-main-wrapper {
@@ -260,7 +260,7 @@
 
 .mainheader-area {
     background: #fff;
-    border-bottom: 1px solid #f3f8fb;
+    border-bottom: 1px solid #fff;
     padding-left: 15px;
     position: relative;
     z-index: 99;
@@ -1974,7 +1974,7 @@ label {
 
 .grid-col {
     padding: 10px 15px;
-    background: #f3f8fb;
+    background: #fff;
     margin-bottom: 30px;
     color: #666;
     border: 1px solid #e3e6e8;
@@ -2298,7 +2298,7 @@ table.dataTable thead td {
 /*-------------------- 23. Login ------------------- */
 
 .login-area {
-    background: #F3F8FB;
+    background: #fff;
 }
 
 .login-box {
@@ -2318,7 +2318,7 @@ table.dataTable thead td {
 
 .login-form-head {
     text-align: center;
-    background: #007581 !important;
+    background: #2ecc71 !important;
     padding: 50px;
 }
 
@@ -2385,7 +2385,7 @@ table.dataTable thead td {
 .form-gp i {
     position: absolute;
     right: 5px;
-    color: #7e74ff;
+    color: #2ecc71;
     font-size: 16px;
 }
 
@@ -2405,7 +2405,7 @@ table.dataTable thead td {
     width: 100%;
     height: 50px;
     border: none;
-    background: #007581 !important;
+    background: #2ecc71 !important;
     color: #fff;
     border-radius: 40px;
     text-transform: uppercase;
@@ -2616,7 +2616,7 @@ table.dataTable thead td {
 
 .error-area {
     min-height: 100vh;
-    background: #F3F8FB;
+    background: #fff;
 }
 
 .error-content {
