@@ -40,11 +40,11 @@ fisrt_name: {
   },
   plantype:{
     type: String,
-    default: 'starter'
+    default: 'undefined'
   },
-  totalprofit:{
+  variant:{
     type: String,
-    default: "00.00"
+    default: "undefined"
   },
   tatalinvestment:{
     type: Number,

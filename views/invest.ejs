@@ -205,34 +205,22 @@
                                 </span>
                             </button>
                         </span>
-                    </div>    <div class="scrollbar-sidebar">
+                    </div>  
+                    <div class="scrollbar-sidebar">
                         <div class="app-sidebar__inner">
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="/">
-                                        <i class="metismenu-icon pe-7s-rocket"></i>
+                                    <a href="/" class="mm-active">
+                                        <i class="metismenu-icon pe-7s-wallet"></i>
                                         Dashboard
                                     </a>
                                 </li>
-                                <li class="app-sidebar__heading">Investments</li>
+                                <li class="app-sidebar__heading">Software</li>
                                 <li  >
-                                    <a href="/invest"  class="mm-active">
-                                        <i class="metismenu-icon pe-7s-plus"></i>
-                                        Make an Investment
-                                    </a>
-                                </li>
-                                <li  >
-                                    <a href="/return-on-investments">
-                                        <i class="metismenu-icon pe-7s-mail-open-file"></i>
-                                        Returns
-                                    </a>
-                                </li>
-
-                                <li  >
-                                    <a href="/analytics">
-                                        <i class="metismenu-icon pe-7s-graph1"></i>
-                                        Analysis
+                                    <a href="/invest">
+                                        <i class="metismenu-icon pe-7s-cart"></i>
+                                        Buy software
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Profile</li>
@@ -243,14 +231,15 @@
                                     </a>
                                 </li>
                                 
-                                <li class="app-sidebar__heading">Withdrawals</li>
+                                <li class="app-sidebar__heading">Monitization</li>
                                 <li>
                                     <a href="/withdrawal">
                                         <i class="metismenu-icon pe-7s-culture">
-                                        </i>Withdraw
+                                        </i>Monitize 
                                     </a>
+                                    
                                 </li>
-                              
+                                
                                 <li class="app-sidebar__heading">Log Out</li>
                                 <li>
                                     <a href="/users/logout">
@@ -267,12 +256,12 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-hourglass icon-gradient bg-love-kiss">
+                                        <i class="pe-7s-cart icon-gradient bg-love-kiss">
                                         </i>
                                     </div>
-                                    <div>Make an Investment
+                                    <div>Buy software today
                                         <div class="page-title-subheading"> 
-                                           Choose a plan from the option avalable.
+                                           Choose an MO-5 Variant from the above.
                                         </div>
                                     </div>
                                 </div>
@@ -327,39 +316,10 @@
                                         </div>
                                     </div>
                                 </div>  -->  </div> 
-                        </div>            <div class="row">
-                            <div class="col-md-8 col-xl-6">
-                                <div class="card mb-3 widget-content bg-midnight-bloom">
-                                    <div class="widget-content-wrapper text-white">
-                                        <div class="widget-content-left">
-                                            <div class="widget-heading">Total Deposit</div>
-                                            <div class="widget-subheading">Available equity  </div>
-                                        </div>
-                                        <div class="widget-content-right">
-                                            <div class="widget-numbers text-white"><span> $ <%= " " + user.availbalance %> </span></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xl-4">
-                                <div class="card mb-3 widget-content bg-arielle-smile">
-                                    <div class="widget-content-wrapper text-white">
-                                        <div class="widget-content-left">
-                                            <div class="widget-heading">TotalPayouts</div>
-                                            <div class="widget-subheading">Total Obtained Profit</div>
-                                        </div>
-                                        <div class="widget-content-right">
-                                            <div class="widget-numbers text-white"><span>$ <%= " " + user.withdrawals %> </span></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                      
-                                    <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
+                        </div>      <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
                                         <li class="nav-item">
                                             <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
-                                                <span>Investment Plans </span>
+                                                <span>Choose M0-5 Variant </span>
                                             </a>
                                         </li>
                                         <!-- <li class="nav-item">
@@ -372,16 +332,20 @@
                                         <div class="col-md-4">
                                            
                                            
-                                            <div class="mb-3 text-center card card-body"><h2 class="card-title">STARTER. </h2>
-                                                <h2 class="widget-numbers text-primary">$50 - $950</h2>
+                                            <div class="mb-3 text-center card card-body"><h2 class="card-title">Basic MO-5 </h2>
+                                                <h2 class="widget-numbers text-primary">$650</h2>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;">20% Return</p>
+                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Swift Business Pay</p>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;">After 24Hrs</p>
+                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Insta Business Pay </p>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;">Deposit Included</p>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Insta global Pay </p>
                                                 <hr>
-                                                <a class="btn btn-primary text-white" href="/select-coin-19843667164" style="font-size: 1.4rem;">Invest  Now</a>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Konnect Wallet </li></p>
+                                                <hr>
+
+                                                
+                                                <a class="btn btn-success text-white" href="/select-coin-19843667164" style="font-size: 1.4rem;">Buy  Now</a>
                                             </div>
                                             
                                         </div>
@@ -389,18 +353,24 @@
                                            
                                            
                                             <div class="mb-3 text-center card card-body">
-                                                <h5 class="card-title">Pro Investor </h5>
-                                                <h2 class="widget-numbers text-primary">$1,000 - $7,500</h2>
+                                                <h5 class="card-title">MO-5 Intermediate </h5>
+                                                <h2 class="widget-numbers text-primary"> $1,119</h2>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;">40% Return</p>
+                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Swift Business Pay</p>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;">After 48Hrs</p>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Insta global Pay </p>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;">Deposit Included</p>
+                                             
+                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Insta Business Pay </p>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;">Spark Returns </p>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Konnect Wallet </li></p>
                                                 <hr>
-                                                <a class="btn btn-primary text-white" href="/select-coin-19843667164" style="font-size: 1.4rem;">Invest  Now</a>
+                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span> Insta Finance Pay</p>
+                                                <hr>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span> International Global Pay </p>
+                                                <hr>
+                                                
+                                                <a class="btn btn-success text-white" href="/select-coin-19843667164" style="font-size: 1.4rem;">Buy  Now</a>
                                                 
                                             </div>
                                             
@@ -408,15 +378,24 @@
                                         <div class="col-md-4">
                                            
                                            
-                                            <div class="mb-3 text-center card card-body"><h5 class="card-title">Prime Investor</h5><h2 class="widget-numbers text-primary">$7,500 - $12,500</h2>
+                                            <div class="mb-3 text-center card card-body"><h5 class="card-title">MO-5 Pro</h5><h2 class="widget-numbers text-primary">1,299</h2>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;">120% Return</p>
+                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Swift Business Pay</p>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;">After 340Hrs</p>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Insta global Pay </p>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;">Deposit Included</p>
+                                             
+                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Insta Business Pay </p>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;">Spark Returns </p>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Konnect Wallet </li></p>
+                                                <hr>
+                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span> Insta Finance Pay</p>
+                                                <hr>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span> International Global Pay </p>
+                                                <hr>
+                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span> Global Business Pay </p>
+                                                <hr>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>  Insta Wallet Pay </p>
                                                 <hr>
                                                 <a class="btn btn-primary text-white" href="/select-coin-19843667164" style="font-size: 1.4rem;">Invest  Now</a>
                                                 
@@ -429,19 +408,29 @@
                                         <div class="col-md-4">
                                            
                                            
-                                            <div class="mb-3 text-center card card-body"><h2 class="card-title">De-Fi Portfolio
-                                                PLAN</h2>
-                                                <h2 class="widget-numbers text-primary">$12,500+</h2>
+                                            <div class="mb-3 text-center card card-body"><h2 class="card-title">Advanced MO-5</h2>
+                                                <h2 class="widget-numbers text-primary">$1,650+</h2>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;">300% Return</p>
+                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Swift Business Pay</p>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;">After 2 Weeks</p>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Insta global Pay </p>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;">Deposit Included</p>
+                                             
+                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Insta Business Pay </p>
                                                 <hr>
-                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;">Spark Returns </p>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>Konnect Wallet </li></p>
                                                 <hr>
-                                                <a class="btn btn-primary text-white " href="/select-coin-19843667164" style="font-size: 1.4rem;">Invest  Now</a>
+                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span> Insta Finance Pay</p>
+                                                <hr>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span> International Global Pay </p>
+                                                <hr>
+                                                <p class="page-title-subheading text-dark"  style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span> Global Business Pay </p>
+                                                <hr>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span>  Insta Wallet Pay </p>
+                                                <hr>
+                                                <p class="page-title-subheading text-dark" style="font-size: 1.4rem;"><span style="color: #2ecc71;"> &#10003; </span> Easy wallet Pay </p>
+                                                <hr>
+                                                <a class="btn btn-primary text-white " href="/select-coin-19843667164" style="font-size: 1.4rem;">Buy Now</a>
                                             </div>
                                             
                                         </div>

@@ -209,45 +209,36 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="/"  >
-                                        <i class="metismenu-icon pe-7s-rocket"></i>
+                                    <a href="/" class="mm-active">
+                                        <i class="metismenu-icon pe-7s-wallet"></i>
                                         Dashboard
                                     </a>
                                 </li>
-                                <li class="app-sidebar__heading">Investments</li>
+                                <li class="app-sidebar__heading">Software</li>
                                 <li  >
                                     <a href="/invest">
-                                        <i class="metismenu-icon pe-7s-plus"></i>
-                                        Make an Investment
+                                        <i class="metismenu-icon pe-7s-cart"></i>
+                                        Buy software
                                     </a>
                                 </li>
-                                <li  >
-                                    <a href="/return-on-investments">
-                                        <i class="metismenu-icon pe-7s-mail-open-file"></i>
-                                        Returns
-                                    </a>
-                                </li>
-
-                                <li  >
-                                    <a href="/analytics">
-                                        <i class="metismenu-icon pe-7s-graph1"></i>
-                                        Analysis
-                                    </a>
-                                </li>
+                              
                                 <li class="app-sidebar__heading">Profile</li>
                                 <li>
-                                    <a href="/profile" class="mm-active">
+                                    <a href="/profile">
                                         <i class="metismenu-icon pe-7s-user"></i>
                                         User details
                                     </a>
                                 </li>
-                                <li class="app-sidebar__heading">Withdrawals</li>
+                                
+                                <li class="app-sidebar__heading">Monitization</li>
                                 <li>
                                     <a href="/withdrawal">
                                         <i class="metismenu-icon pe-7s-culture">
-                                        </i>Withdraw
+                                        </i>Monitize
                                     </a>
+                                  
                                 </li>
+                                
                                 <li class="app-sidebar__heading">Log Out</li>
                                 <li>
                                     <a href="/users/logout">
@@ -299,10 +290,7 @@
                                             </div>
                                             <div class="form-row">
                                                 <div class="col-md-6">
-                                                    <div class="position-relative form-group"><label for="referral_code" class="">Referral Code</label><input name="referral_code" id="referral_code" type="text" class="form-control" value="<%= user.referalcode %>"></div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="position-relative form-group"><label for="plan_type" class="">Plan type</label><input name="plan_type" id="plan_type" type="text" class="form-control" value="<%= user.plantype %>"></div>
+                                                    <div class="position-relative form-group"><label for="plan_type" class="">Portfolio type</label><input name="plan_type" id="plan_type" type="text" class="form-control" value="<%= user.plantype %>"></div>
                                                 </div>
                                             </div>
                                             <!-- <div class="position-relative form-check"><input name="check" id="exampleCheck" type="checkbox" class="form-check-input"><label for="exampleCheck" class="form-check-label">Check me out</label></div>
